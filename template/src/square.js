@@ -1,9 +1,17 @@
 import React from "react";
+import { string, func } from "prop-types";
 
-export default function Square(props) {
+Square.propTypes = {
+  onClick: func.isRequired,
+  value: string
+};
+
+function Square({ onClick, value = "" }) {
   return (
-    <button className="square" onClick={props.onClick}>
-      {props.value}
+    <button className="square" onClick={onClick}>
+      {value}
     </button>
   );
 }
+
+export default Square;

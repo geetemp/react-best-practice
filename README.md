@@ -9,4 +9,17 @@ explore react best practice
   * DEM
   * styled component
 
-* template (one example of demonstrations)
+### done
+
+* base example
+
+* react class property
+
+### next
+
+* react performance
+* css in Js
+* react 16 new feature
+* react component pattern
+* pwa
+* relay/graphql

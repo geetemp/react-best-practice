@@ -5,6 +5,7 @@ explore react best practice
 * javascript decorators
 
 * css in Js
+
   * DEM
   * styled component
 
@@ -12,9 +13,10 @@ explore react best practice
 
 * base example
 
+* react class property
+
 ### next
 
-* react class property
 * react performance
 * css in Js
 * react 16 new feature

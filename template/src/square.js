@@ -7,6 +7,7 @@ Square.propTypes = {
 };
 
 function Square({ onClick, value = "" }) {
+  console.log('abc')
   return (
     <button className="square" onClick={onClick}>
       {value}

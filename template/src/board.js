@@ -10,12 +10,7 @@ export default class Board extends React.Component {
   static defaultProps = { squares: Array(9).fill(null), onClick: () => {} };
 
   renderSquare = i => {
-    return (
-      <Square
-        value={this.props.squares[i]}
-        onClick={() => this.props.onClick(i)}
-      />
-    );
+    return <Square value={this.props.squares[i]} onClick={() => this.props.onClick(i)} />;
   };
 
   render() {

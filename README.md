@@ -7,13 +7,15 @@ explore react best practice
 * css in Js
 
   * DEM
-  * styled component
+  * styled component  
 
 ### done
 
 * base example
 
 * react class property
+
+* prettier + eslint
 
 ### next
 

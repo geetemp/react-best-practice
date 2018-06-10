@@ -2,26 +2,30 @@
 
 explore react best practice
 
-* javascript decorators
+- javascript decorators
 
-* css in Js
+- css in Js
 
-  * DEM
-  * styled component  
+  - DEM
+  - styled component
 
 ### done
 
-* base example
+- base example
 
-* react class property
+- react class property
 
-* prettier + eslint
+- prettier + eslint
+
+### doing
+
+- prettier + stylelint
 
 ### next
 
-* react performance
-* css in Js
-* react 16 new feature
-* react component pattern
-* pwa
-* relay/graphql
+- react performance
+- css in Js
+- react 16 new feature
+- react component pattern
+- pwa
+- relay/graphql

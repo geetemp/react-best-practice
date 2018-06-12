@@ -17,15 +17,22 @@ explore react best practice
 
 - prettier + eslint
 
+- prettier + stylelint
+
 ### doing
 
-- prettier + stylelint
+- css in Js
+
+- react 16 new feature
 
 ### next
 
+##### second phase
+
 - react performance
-- css in Js
-- react 16 new feature
 - react component pattern
+
+##### three phase
+
 - pwa
 - relay/graphql

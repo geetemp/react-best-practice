@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import styles from './index.css';
 import Board from './board';
 
 class Game extends React.Component {
@@ -64,11 +64,11 @@ class Game extends React.Component {
     }
 
     return (
-      <div className="game">
-        <div className="game-board">
+      <div className={styles.game}>
+        <div className={styles.gameboard}>
           <Board squares={current.squares} onClick={i => this.handleClick(i)} />
         </div>
-        <div className="game-info">
+        <div className={styles.gameinfo}>
           <div>{status}</div>
           <ol>{moves}</ol>
         </div>

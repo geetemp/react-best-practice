@@ -4,9 +4,9 @@ explore react best practice
 
 - javascript decorators
 
-- css in Js
+- css module
 
-  - DEM
+  - BEM
   - styled component
 
 ### done
@@ -19,9 +19,9 @@ explore react best practice
 
 - prettier + stylelint
 
-### doing
+- css module
 
-- css in Js
+### doing
 
 - react 16 new feature
 

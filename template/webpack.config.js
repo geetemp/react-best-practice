@@ -17,9 +17,13 @@ module.exports = {
         include: [path.resolve(__dirname, "src")],
         loader: "babel-loader"
       },
+      // {
+      //   test: /\.css?$/,
+      //   use: ["style-loader", "css-loader"]
+      // },
       {
-        test: /\.css?$/,
-        use: ["style-loader", "css-loader"]
+        test: /\.css$/,
+        loader: "style-loader!css-loader?modules&localIdentName=[name]__[local]__[hash:base64:5]"
       }
     ]
   },

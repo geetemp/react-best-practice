@@ -1,5 +1,6 @@
 import React from 'react';
 import { string, func } from 'prop-types';
+import styles from './index.css';
 
 // eslint-disable-next-line no-use-before-define
 Square.propTypes = {
@@ -14,7 +15,7 @@ Square.defaultProps = {
 
 function Square({ onClick, value = '' }) {
   return (
-    <button className="square" onClick={onClick}>
+    <button className={styles.square} onClick={onClick}>
       {value}
     </button>
   );

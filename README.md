@@ -6,7 +6,7 @@ explore react best practice
 
 - css in Js
 
-  - DEM
+  - BEM
   - styled component
 
 ### done
